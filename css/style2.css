@@ -1,0 +1,15 @@
+html {
+  background-image: url(../png/black.png);
+}
+body {
+  background-color: rgb(230, 230, 189);
+  color:rgb(0,0,0);
+}
+body {
+  border-left: 80px solid rgb(0,0,0);
+  border-right: 80px solid rgb(0,0,0);
+}
+aside {
+  border: 4px double rgb(0,0,0);
+  border-radius: 30px;
+}

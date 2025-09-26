@@ -1,6 +1,11 @@
 @charset "utf-8";
 
+body {
+  background-color: rgb(206, 187, 19);
+  color:rgb(0,0,0);
+}
+
 body > header > section > img {
-  width: 70%;
+  width: 10%;
 
 }

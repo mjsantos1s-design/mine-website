@@ -9,3 +9,40 @@ body > header > section > img {
   width: 10%;
 
 }
+
+footer {
+  background-color: brown;
+  color:rgb(237, 225, 119);
+  display: block;
+  padding: 0px;
+  width:100%;
+  margin:30%;
+}
+
+nav.horizontalNavigation a {
+   color: rgb(206, 187, 19);
+   opacity: 0.30;
+   line-height: 10em;
+   -webkit-filter: hue-rotate(100deg);
+   filter: hue-rotate(100deg);
+   float: right;
+   padding: 0px;
+   margin:25%;
+}  
+nav.horizontalNavigation {
+  border: 20;
+  border-color: brown;
+  padding: 30px 0px 40px;
+}
+body > header {
+  background-color: brown;
+}
+footer::after {
+   clear: both;	
+   content: "";
+   display: table;
+}
+
+section#rightColumn {
+  padding: 20px;
+}

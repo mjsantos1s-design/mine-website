@@ -1,17 +1,48 @@
 html {
   background-image: url(../png/black.png);
 }
+
 body {
   background-color: rgb(230, 230, 189);
   color:rgb(0,0,0);
-}
-body {
   border-left: 80px solid rgb(0,0,0);
   border-right: 80px solid rgb(0,0,0);
 }
+
+img {
+  border: 5px solid rgb(77, 13, 13);
+}
+
+body > header > h1 {
+  font-size:30px;
+  color: orangered;
+  background-color: black;
+}
+
+body > header {
+  background-color: black;
+}
+
+body > article > section {
+  font-size: 4px;
+font-weight: 100;
+}
+
 aside {
   border: 4px double rgb(0,0,0);
   border-radius: 30px;
 }
 
+footer {
+  text-align: center;
+  color:orangered;
+  background-color: black;
+  padding: 10px;
+  font-size: 15px;
+}
 
+body > section > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

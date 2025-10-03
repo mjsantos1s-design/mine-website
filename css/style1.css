@@ -10,24 +10,30 @@ body > header > section > img {
 
 }
 
+body > section#text {
+  padding: 20px;
+  border: 10px solid black;
+  text-align: center;
+  background-color: rgb(49, 48, 36);
+}
+
 footer {
   background-color: brown;
-  color:rgb(237, 225, 119);
   display: block;
-  padding: 0px;
+  padding: 10px;
   width:100%;
   margin:30%;
+  text-align:center;
 }
 
 nav.horizontalNavigation a {
-   color: rgb(206, 187, 19);
    opacity: 0.30;
    line-height: 10em;
    -webkit-filter: hue-rotate(100deg);
    filter: hue-rotate(100deg);
    float: right;
    padding: 0px;
-   margin:25%;
+   margin:0%;
 }  
 nav.horizontalNavigation {
   border: 20;
@@ -37,12 +43,20 @@ nav.horizontalNavigation {
 body > header {
   background-color: brown;
 }
+
+section#rightColumn {
+  padding: 20px;
+}
+
+footer section#copyright{
+  color: rgb(206, 187, 19);
+  font: sans-serif;
+  text-align:center;
+  padding: 20px;
+}
+
 footer::after {
    clear: both;	
    content: "";
    display: table;
-}
-
-section#rightColumn {
-  padding: 20px;
 }

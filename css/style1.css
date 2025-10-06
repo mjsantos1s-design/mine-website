@@ -5,9 +5,13 @@ body {
   color:rgb(0,0,0);
 }
 
-body > header > section > img {
-  width: 10%;
+nav.horizontalNavigation ul img#stand{
+   transform: rotateY(180deg);
+   margin-bottom: 9px;
+}
 
+nav.horizontalNavigation ul img#wiggle{
+ margin-left: 30px;
 }
 
 body > section#text {
@@ -61,8 +65,11 @@ footer::after {
    content: "";
    display: table;
 }
-body > section#rightColumn ul li {
+section#rightColumn ul li {
+  display: block;
+  background-color: rgb(221, 209, 102);
   border: 40px solid rgb(221, 209, 102);
+  box-sizing: border-box;
    font-size: 0.9em;
    float: left;
    letter-spacing: 0.1em;
@@ -70,5 +77,13 @@ body > section#rightColumn ul li {
    width: 33.3%;
    height: 150%;
    text-align: center;
-   background-color:rgb(221, 209, 102);
+}
+
+section#rightColumn ul li a:hover, section#rightColumn ul li a:active {
+  background-color: rgb(155, 147, 73);
+  border: 40px solid rgb(155, 147, 73);
+  box-sizing: border-box;
+  margin-top: 50px;
+  width: 33.3%;
+  height: 150%;
 }

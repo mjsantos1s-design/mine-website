@@ -27,10 +27,10 @@ footer {
 }
 
 nav.horizontalNavigation a {
-   opacity: 0.30;
+   opacity: 0.20;
    line-height: 10em;
-   -webkit-filter: hue-rotate(100deg);
-   filter: hue-rotate(100deg);
+   -webkit-filter: hue-rotate(160deg);
+   filter: hue-rotate(160deg);
    float: right;
    padding: 0px;
    margin:0%;
@@ -59,4 +59,8 @@ footer::after {
    clear: both;	
    content: "";
    display: table;
+}
+body nav ul {
+     -webkit-filter: hue-rotate(160deg);
+        filter: hue-rotate(160deg);
 }

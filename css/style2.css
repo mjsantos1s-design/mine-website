@@ -48,3 +48,64 @@ body > section > img {
   margin-left: auto;
   margin-right: auto;
 }
+
+section > figcaption#erad {
+  width: 20%;
+  height: 20%;
+  margin-left: 691px;
+  border: 20px solid rgb(32, 32, 32);
+  background-color: rgb(0, 71, 4);
+  color:red;
+  text-align: center;
+}
+
+section > figcaption#jumper {
+  width: 20%;
+  height: 20%;
+  margin-left: 691px;
+  border: 20px solid rgb(31, 31, 31);
+  background-color: rgb(78, 78, 78);
+  color:red;
+  text-align: center;
+}
+
+section > figcaption#VX {
+  width: 20%;
+  height: 20%;
+  margin-left: 691px;
+  border: 20px solid rgb(59, 39, 39);
+  background-color: rgb(88, 88, 88);
+  color:rgb(255, 0, 98);
+  text-align: center;
+}
+
+section > figcaption#gods {
+  width: 20%;
+  height: 20%;
+  margin-left: 691px;
+  border: 20px solid rgb(59, 39, 39);
+  background-color: rgb(88, 88, 88);
+  color: rgb(30, 49, 30);
+  text-align: center;
+}
+
+section > figcaption >b#phoebus {
+  border: 5px solid rgb(255, 145, 0);
+  background-color: rgb(255, 0, 0);
+  color: rgb(35, 35, 48);
+  text-align: center;
+}
+
+section > figcaption >b#zeus {
+  border: 5px solid rgb(0, 0, 0);
+  background-color: rgb(251, 255, 0);
+  color: rgb(35, 35, 48);
+  text-align: center;
+}
+
+section > figcaption >b#artemis {
+  border: 5px solid  rgb(0, 174, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(35, 35, 48);
+  text-align: center;
+}

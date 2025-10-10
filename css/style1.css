@@ -87,3 +87,7 @@ section#rightColumn ul li a:hover, section#rightColumn ul li a:active {
   width: 33.3%;
   height: 150%;
 }
+
+a:link {
+  color: black;
+}

@@ -1,0 +1,32 @@
+
+/* ================================
+   Mobile Styles: 0px to 480px
+   ================================
+*/
+@media only screen and (max-width: 730px) {
+  body > section#text{
+    font-size: 80%;
+  }
+}
+
+
+/* =================================
+   Tablet Styles: 481px and greater
+   =================================
+*/
+@media only screen and (min-width: 481px) {}
+
+
+/* =================================
+   Desktop Styles: 769px and greater
+   =================================
+*/
+@media only screen and (min-width: 769px) {
+     body > section#text{
+    font-size: 100%;
+  }
+
+  body {
+   word-wrap:inherit;
+  }
+}

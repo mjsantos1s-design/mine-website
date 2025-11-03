@@ -38,13 +38,9 @@ nav.horizontalNavigation a {
    filter: hue-rotate(160deg);
    float: right;
    padding: 35px;
-   margin:0%;
+   margin:0;
 }  
-nav.horizontalNavigation {
-  border: 20;
-  border-color: brown;
-  padding: 30px 0px 40px;
-}
+
 body > header {
   background-color: brown;
 }
@@ -60,7 +56,7 @@ footer section#copyright{
   padding: 20px;
 }
 
-footer::after {
+footer {
    clear: both;	
    content: "";
    display: table;
@@ -70,13 +66,13 @@ section#rightColumn ul li {
   background-color: rgb(221, 209, 102);
   border: 40px solid rgb(221, 209, 102);
   box-sizing: border-box;
-   font-size: 0.9em;
-   float: left;
-   letter-spacing: 0.1em;
-   margin-top: 50px;
-   width: 33.3%;
-   height: 150%;
-   text-align: center;
+  font-size: 0.9em;
+  float: left;
+  letter-spacing: 0.1em;
+  margin-top: 50px;
+  width: 32%;
+  height: auto;
+  text-align: center;
 }
 
 section#rightColumn ul li a:hover, section#rightColumn ul li a:active {
@@ -84,10 +80,36 @@ section#rightColumn ul li a:hover, section#rightColumn ul li a:active {
   border: 40px solid rgb(155, 147, 73);
   box-sizing: border-box;
   margin-top: 50px;
-  width: 33.3%;
-  height: 150%;
+  width: 32%;
+  height: auto;
+  text-align: center;
 }
 
 a:link {
   color: black;
 }
+
+
+/* ================================
+   Mobile Styles: 0px to 480px
+   ================================
+*/
+@media only screen and (max-width: 730px) {
+  body > section#text{
+    font-size: 80%;
+  }
+}
+
+
+/* =================================
+   Tablet Styles: 481px and greater
+   =================================
+*/
+@media only screen and (min-width: 481px) {}
+
+
+/* =================================
+   Desktop Styles: 769px and greater
+   =================================
+*/
+@media only screen and (min-width: 769px) {}

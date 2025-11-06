@@ -31,13 +31,13 @@ footer {
   text-align:center;
 }
 
-nav.horizontalNavigation a {
+nav.horizontalNavigation a img {
    opacity: 0.20;
-   line-height: 10em;
    -webkit-filter: hue-rotate(160deg);
    filter: hue-rotate(160deg);
    float: right;
-   padding: 35px;
+   padding-right: 6em;
+   padding-bottom: 2em;
    margin:0;
 }  
 
